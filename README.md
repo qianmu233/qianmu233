@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi, I'm qianmu 👋
 
-<!--
-**qianmu233/qianmu233** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Software Engineering M.S. student at **South China Normal University**.
 
-Here are some ideas to get you started:
+Interested in **Java Backend Engineering, LLM Applications, RAG, and AI Agents**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 Featured Projects
+
+**[Agent Tool Security Gateway](https://github.com/qianmu233/agent-security-gateway)**  
+A Java-based MCP tool security gateway featuring API key authentication, RBAC, tenant isolation, and controlled tool authorization.
+
+**[ResearchPilot](https://github.com/qianmu233/research-pilot)**  
+A stateful research agent built with FastAPI and LangGraph, featuring RAG, multi-step reasoning workflows, evidence tracing, and local/cloud LLM support.
+
+### 🛠️ Tech Stack
+
+**Languages:** Java · Python · SQL · C++
+
+**Backend & AI:** Spring Boot · Spring AI · FastAPI · LangGraph · RAG · MCP
+
+**Infrastructure:** PostgreSQL · MySQL · Redis · RabbitMQ · Docker · Git
+
+### 📫 Currently
+
+Open to internship opportunities in **AI Application Development and Backend Engineering**.
