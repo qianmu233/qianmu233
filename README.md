@@ -28,7 +28,7 @@ I focus on **Java backend engineering and LLM application development**, with in
 - Uses inventory queries and purchase-order changes to demonstrate the authorization flow.
 
 ### 4. [ResearchPilot: Evidence-Grounded Research Agent](https://github.com/qianmu233/research-pilot)
-**ResearchPilot：证据溯源深度研究智能体** · Python · FastAPI · LangGraph · RAG
+**ResearchPilot：基于证据的深度研究智能体** · Python · FastAPI · LangGraph · RAG
 
 - Organizes research into planning, retrieval, evidence assessment, and report generation.
 - Checks report source IDs and excerpts against retrieved records, and exposes task status and execution traces.
