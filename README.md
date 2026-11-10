@@ -2,44 +2,65 @@
 
 I'm a Software Engineering M.S. student at **South China Normal University**.
 
-I focus on **Java backend engineering and LLM application development**, with interests in RAG, agent workflows, tool integration, and reliable asynchronous services.
+I focus on **Java backend engineering, AI platform development, and LLM application development**, with hands-on experience in asynchronous task processing, enterprise RAG, agent workflows, and secure tool integration.
 
-## Featured Projects
+I'm interested in building reliable backend systems and practical AI applications.
+
+## 🚀 Featured Projects
 
 ### 1. [Asynchronous AI Task Orchestration Platform](https://github.com/qianmu233/async-ai-task-platform)
-**异步 AI 任务调度与执行平台** · Java 17 · Spring Boot · MySQL · RabbitMQ · Redis
 
-- Provides an asynchronous task API with persistent task states and idempotent submission.
-- Uses Transactional Outbox for message dispatch, RabbitMQ consumers, conditional worker claims, and timeout-safe result updates.
-- Includes an OpenAI-compatible model adapter and optional Redis Lua rate limiting.
+**异步 AI 任务调度与执行平台**
+
+`Java 17` `Spring Boot` `MySQL` `RabbitMQ` `Redis`
+
+- Provides asynchronous task submission, persistent task states, and idempotent request handling.
+- Implements Transactional Outbox, RabbitMQ message dispatch, conditional worker claims, and timeout-safe result updates.
+- Supports OpenAI-compatible model integration and optional Redis Lua rate limiting.
 
 ### 2. [Enterprise RAG & ERP Assistant](https://github.com/qianmu233/enterprise-rag-erp-assistant)
-**企业级 RAG 与 ERP 智能业务助手** · Spring AI · PostgreSQL/PgVector · ONNX Runtime · SSE
 
-- Combines enterprise document retrieval and cited answers with structured ERP data queries.
-- Supports controlled tool calling, read-only SQL, session management, and streaming responses.
-- Developed from [ly1836/spring-ai-rag-demo](https://github.com/ly1836/spring-ai-rag-demo), with project changes and source boundaries documented in the repository.
+**企业级 RAG 与 ERP 智能业务助手**
 
-### 3. [Agent Tool Security Gateway](https://github.com/qianmu233/agent-security-gateway)
-**Agent 工具调用安全授权网关** · Spring Security · MCP · Python · LangGraph
+`Spring AI` `RAG` `PostgreSQL` `PgVector` `ONNX Runtime` `SSE`
+
+- Integrates enterprise document retrieval, knowledge-based question answering, and structured ERP data queries.
+- Supports controlled tool calling, read-only SQL queries, session management, and SSE streaming responses.
+- Developed from [ly1836/spring-ai-rag-demo](https://github.com/ly1836/spring-ai-rag-demo), with project modifications and source boundaries documented in the repository.
+
+### 3. [ResearchPilot: Evidence-Grounded Research Agent](https://github.com/qianmu233/research-pilot)
+
+**ResearchPilot：深度研究与证据溯源 Agent**
+
+`Python` `FastAPI` `LangGraph` `RAG` `PgVector`
+
+- Builds a multi-step research workflow covering planning, retrieval, evidence assessment, report generation, and citation validation.
+- Implements Chinese semantic retrieval and source ID/excerpt validation against retrieved records.
+- Persists task state and graph checkpoints, supporting task status queries and controlled manual recovery.
+
+### 4. [Agent Tool Security Gateway](https://github.com/qianmu233/agent-security-gateway)
+
+**Agent 工具调用安全授权网关**
+
+`Java` `Spring Security` `MCP` `Python` `LangGraph`
 
 - Connects a LangGraph agent to a Java MCP gateway for tool discovery and execution.
-- Applies server-side authentication, RBAC, tenant/resource authorization, and checks for high-risk write operations before business execution.
-- Uses inventory queries and purchase-order changes to demonstrate the authorization flow.
+- Implements server-side identity mapping, RBAC, tenant and resource authorization, and one-time Write Intent validation.
+- Includes replay protection, audit logging, and security tests based on a local Mock ERP environment.
 
-### 4. [ResearchPilot: Evidence-Grounded Research Agent](https://github.com/qianmu233/research-pilot)
-**ResearchPilot：深度研究与资料溯源智能体** · Python · FastAPI · LangGraph · RAG
-
-- Organizes research into planning, retrieval, evidence assessment, and report generation.
-- Checks report source IDs and excerpts against retrieved records, and exposes task status and execution traces.
-- Persists task state and graph checkpoints for controlled manual recovery; supports Mock, local Ollama/Qwen, and cloud model backends.
-
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Languages:** Java · Python · SQL · C++
 - **Backend & AI:** Spring Boot · Spring AI · FastAPI · LangGraph · RAG · MCP
-- **Data & Infrastructure:** MySQL · PostgreSQL · PgVector · Redis · RabbitMQ · Docker · Git
+- **Databases & Messaging:** MySQL · PostgreSQL · PgVector · Redis · RabbitMQ
+- **Tools & Infrastructure:** Docker · Maven · Git
 
-## Currently
+## 🎯 Career Interests
 
-Open to internship opportunities in **LLM Application Development and Backend Engineering**.
+Open to internship opportunities in:
+
+- Java Backend Engineering
+- AI Platform Development
+- LLM Application Development
+
+Thanks for visiting my profile!
