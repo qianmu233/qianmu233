@@ -2,7 +2,7 @@
 
 I'm a **Software Engineering M.S. student at South China Normal University (Class of 2028)**.
 
-I focus on **LLM application development, Multi-Agent systems, and Java backend engineering**, with an interest in building reliable, practical, and evidence-grounded AI applications.
+I focus on **LLM application development, Multi-Agent systems, and backend engineering**, with an interest in building reliable, practical, and evidence-grounded AI applications.
 
 My projects cover multi-agent research workflows, enterprise RAG and tool-calling applications, asynchronous AI task processing, and MCP tool security. I also conduct research on multimodal visual question answering, document understanding, and parameter-efficient fine-tuning.
 
